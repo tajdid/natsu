@@ -1,7 +1,7 @@
 Natsu
 =====
 
-Weekly Experiments #001
+Weekly Experiment #001
 
 
 #####Credits
