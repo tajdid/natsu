@@ -1,0 +1,94 @@
+@import 'main.css', 'vegas.css';
+@import 'bourbon';
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+
+//Colours
+$copy-colour: #FFF;
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font: 1em 'Montserrat', Helvetica, Arial, sans-serif;
+	color: $copy-colour;
+}
+
+a {
+	color: $copy-colour;
+	text-decoration: none;
+	@include transition;
+}
+
+.container {
+	padding: 0 2em;
+}
+
+header {
+	
+	padding: 1.7em 0;
+	height: 80px;
+
+	.logo {
+		float: left;
+		h3 {
+			margin: 0;
+			text-transform: uppercase;
+			letter-spacing: 4px;
+		}
+	}
+
+	nav {
+		float: right;
+
+		ul {
+			margin: 0;
+			list-style: none;
+
+			li {
+				display: inline-block;
+				margin: 0 0 0 1.6em;
+
+				a {
+					font-size: 0.8em;
+					padding-bottom: 0.2em;
+					text-transform: uppercase;
+					color: $copy-colour;
+					text-decoration: none;
+					border-bottom: 2px solid rgba($copy-colour, 0);
+					@include transition;
+
+					&:hover {
+						border-bottom: 3px solid rgba($copy-colour, 1);
+					}
+				}
+			}
+		}
+	}
+}
+
+section {
+
+	.content {
+		position: relative;
+		top: 50%;
+		transform: translateY(100%);
+		-ms-transform: translateY(100%);
+		-webkit-transform: translateY(100%);
+		//margin-top: -10em;
+		//margin-left: -15em;
+
+		h1 {
+			margin: 0;
+			text-shadow: 0 1px 1px rgba(#000000, 0.8);
+			height: 100px;
+			text-align: center;
+		}
+		h3 {
+			margin: -1em 0 0;
+			text-shadow: 0 1px 1px rgba(#000000, 0.8);
+			height: 100px;
+			text-align: center;
+		}
+	}
+}
