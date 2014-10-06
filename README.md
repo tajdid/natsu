@@ -1,8 +1,7 @@
 Natsu
 =====
 
-Weekly Experiment #001
-
+Just an experiment.
 
 #####Credits
 - Images: [Unsplash](http://unsplash.com/)
